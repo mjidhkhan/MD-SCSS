@@ -1,0 +1,98 @@
+// orange Color
+
+$orange: #ff9800 !default;
+$orange-lighten-5: #fff3e0 !default;
+$orange-lighten-4: #ffe0b2 !default;
+$orange-lighten-3: #ffcc80 !default;
+$orange-lighten-2: #ffb74d !default;
+$orange-lighten-1: #ffa726 !default;
+$orange-darken-1: #fb8c00 !default;
+$orange-darken-2: #f57c00 !default;
+$orange-darken-3: #ef6c00 !default;
+$orange-darken-4: #e65100 !default;
+$orange-accent-1: #ffd180 !default;
+$orange-accent-2: #ffab40 !default;
+$orange-accent-3: #ff9100 !default;
+$orange-accent-4: #ff6d00 !default;
+
+$orange-lighten: () !default;
+
+$orange-lighten: map-merge(
+
+	(
+		"orange-lighten-5": $orange-lighten-5,
+		"orange-lighten-4": $orange-lighten-4,
+		"orange-lighten-3": $orange-lighten-3,
+		"orange-lighten-2": $orange-lighten-2,
+		"orange-lighten-1": $orange-lighten-1
+	),
+	$orange-lighten
+);
+$orange-darken: () !default;
+$orange-darken: map-merge(
+
+	(
+		"orange": $orange,
+		"orange-darken-4": $orange-darken-4,
+		"orange-darken-3": $orange-darken-3,
+		"orange-darken-2": $orange-darken-2,
+		"orange-darken-1": $orange-darken-1
+	),
+	$orange-darken
+);
+
+$orange-accent: () !default;
+$orange-accent: map-merge(
+
+	(
+		"orange-accent-4": $orange-accent-4,
+		"orange-accent-3": $orange-accent-3,
+		"orange-accent-2": $orange-accent-2,
+		"orange-accent-1": $orange-accent-1
+	),
+	$orange-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"orange-lighten-1":$orange-lighten-1,
+		"orange-lighten-2":$orange-lighten-2,
+		"orange-lighten-3":$orange-lighten-3,
+		"orange-lighten-4":$orange-lighten-4,
+		"orange-lighten-5":$orange-lighten-5,
+		"orange-darken-1":$orange-darken-1,
+		"orange-darken-2":$orange-darken-2,
+		"orange-darken-3":$orange-darken-3,
+		"orange-darken-4":$orange-darken-4,
+		"orange-accent-1":$orange-accent-1,
+		"orange-accent-2":$orange-accent-2,
+		"orange-accent-3":$orange-accent-3,
+		"orange-accent-4":$orange-accent-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"orange": $orange,
+		"orange-lighten-1":$orange-lighten-1,
+		"orange-lighten-2":$orange-lighten-2,
+		"orange-lighten-3":$orange-lighten-3,
+		"orange-lighten-4":$orange-lighten-4,
+		"orange-lighten-5":$orange-lighten-5,
+		"orange-darken-1":$orange-darken-1,
+		"orange-darken-2":$orange-darken-2,
+		"orange-darken-3":$orange-darken-3,
+		"orange-darken-4":$orange-darken-4,
+		"orange-accent-1":$orange-accent-1,
+		"orange-accent-2":$orange-accent-2,
+		"orange-accent-3":$orange-accent-3,
+		"orange-accent-4":$orange-accent-4
+	),
+	$theme-colors
+);

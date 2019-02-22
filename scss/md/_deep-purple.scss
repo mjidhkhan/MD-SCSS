@@ -1,0 +1,60 @@
+//Deep Purple
+$deep-purple-50:#EDE7F6 !default;
+$deep-purple-100:#D1C4E9 !default;
+$deep-purple-200:#B39DDB !default;
+$deep-purple-300:#9575CD !default;
+$deep-purple-400:#7E57C2 !default;
+$deep-purple-500:#673AB7 !default;
+$deep-purple-600:#5E35B1 !default;
+$deep-purple-700:#512DA8 !default;
+$deep-purple-800:#4527A0 !default;
+$deep-purple-900:#311B92 !default;
+$deep-purple-A100:#B388FF !default;
+$deep-purple-A200:#7C4DFF !default;
+$deep-purple-A400:#651FFF !default;
+$deep-purple-A700:#6200EA !default;
+
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'deep-purple-50': $deep-purple-50,
+    'deep-purple-100':$deep-purple-100,
+    'deep-purple-200':$deep-purple-200,
+    'deep-purple-300':$deep-purple-300,
+    'deep-purple-400':$deep-purple-400,
+    'deep-purple-500':$deep-purple-500,
+    'deep-purple-600':$deep-purple-600,
+    'deep-purple-700':$deep-purple-700,
+    'deep-purple-800':$deep-purple-800,
+    'deep-purple-900':$deep-purple-900,
+    'deep-purple-A100':$deep-purple-A100,
+    'deep-purple-A200':$deep-purple-A200,
+    'deep-purple-A400':$deep-purple-A400,
+    'deep-purple-A700':$deep-purple-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'deep-purple-50': $deep-purple-50,
+    'deep-purple-100':$deep-purple-100,
+    'deep-purple-200':$deep-purple-200,
+    'deep-purple-300':$deep-purple-300,
+    'deep-purple-400':$deep-purple-400,
+    'deep-purple-500':$deep-purple-500,
+    'deep-purple-600':$deep-purple-600,
+    'deep-purple-700':$deep-purple-700,
+    'deep-purple-800':$deep-purple-800,
+    'deep-purple-900':$deep-purple-900,
+    'deep-purple-A100':$deep-purple-A100,
+    'deep-purple-A200':$deep-purple-A200,
+    'deep-purple-A400':$deep-purple-A400,
+    'deep-purple-A700':$deep-purple-A700
+  ),
+  $theme-colors
+);

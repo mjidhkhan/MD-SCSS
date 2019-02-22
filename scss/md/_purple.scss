@@ -1,0 +1,59 @@
+//Purple
+$purple-50:#F3E5F5 !default;
+$purple-100:#E1BEE7 !default;
+$purple-200:#CE93D8 !default;
+$purple-300:#BA68C8 !default;
+$purple-400:#AB47BC !default;
+$purple-500:#9C27B0 !default;
+$purple-600:#8E24AA !default;
+$purple-700:#7B1FA2 !default;
+$purple-800:#6A1B9A !default;
+$purple-900:#4A148C !default;
+$purple-A100:#EA80FC!default;
+$purple-A200:#E040FB !default;
+$purple-A400:#D500F9 !default;
+$purple-A700:#AA00FF !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'purple-50': $purple-50,
+    'purple-100':$purple-100,
+    'purple-200':$purple-200,
+    'purple-300':$purple-300,
+    'purple-400':$purple-400,
+    'purple-500':$purple-500,
+    'purple-600':$purple-600,
+    'purple-700':$purple-700,
+    'purple-800':$purple-800,
+    'purple-900':$purple-900,
+    'purple-A100':$purple-A100,
+    'purple-A200':$purple-A200,
+    'purple-A400':$purple-A400,
+    'purple-A700':$purple-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'purple-50': $purple-50,
+    'purple-100':$purple-100,
+    'purple-200':$purple-200,
+    'purple-300':$purple-300,
+    'purple-400':$purple-400,
+    'purple-500':$purple-500,
+    'purple-600':$purple-600,
+    'purple-700':$purple-700,
+    'purple-800':$purple-800,
+    'purple-900':$purple-900,
+    'purple-A100':$purple-A100,
+    'purple-A200':$purple-A200,
+    'purple-A400':$purple-A400,
+    'purple-A700':$purple-A700
+  ),
+  $theme-colors
+);

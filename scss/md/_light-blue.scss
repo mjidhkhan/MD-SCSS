@@ -1,0 +1,59 @@
+//Light Blue
+$light-blue-50:#E1F5FE !default;
+$light-blue-100:#B3E5FC !default;
+$light-blue-200:#81D4FA !default;
+$light-blue-300:#4FC3F7 !default;
+$light-blue-400:#29B6F6 !default;
+$light-blue-500:#03A9F4 !default;
+$light-blue-600:#039BE5 !default;
+$light-blue-700:#0288D1 !default;
+$light-blue-800:#0277BD !default;
+$light-blue-900:#01579B !default;
+$light-blue-A100:#80D8FF !default;
+$light-blue-A200:#40C4FF !default;
+$light-blue-A400:#00B0FF !default;
+$light-blue-A700:#0091EA !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'light-blue-50': $light-blue-50,
+    'light-blue-100':$light-blue-100,
+    'light-blue-200':$light-blue-200,
+    'light-blue-300':$light-blue-300,
+    'light-blue-400':$light-blue-400,
+    'light-blue-500':$light-blue-500,
+    'light-blue-600':$light-blue-600,
+    'light-blue-700':$light-blue-700,
+    'light-blue-800':$light-blue-800,
+    'light-blue-900':$light-blue-900,
+    'light-blue-A100':$light-blue-A100,
+    'light-blue-A200':$light-blue-A200,
+    'light-blue-A400':$light-blue-A400,
+    'light-blue-A700':$light-blue-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'light-blue-50': $light-blue-50,
+    'light-blue-100':$light-blue-100,
+    'light-blue-200':$light-blue-200,
+    'light-blue-300':$light-blue-300,
+    'light-blue-400':$light-blue-400,
+    'light-blue-500':$light-blue-500,
+    'light-blue-600':$light-blue-600,
+    'light-blue-700':$light-blue-700,
+    'light-blue-800':$light-blue-800,
+    'light-blue-900':$light-blue-900,
+    'light-blue-A100':$light-blue-A100,
+    'light-blue-A200':$light-blue-A200,
+    'light-blue-A400':$light-blue-A400,
+    'light-blue-A700':$light-blue-A700
+  ),
+  $theme-colors
+);

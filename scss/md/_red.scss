@@ -1,0 +1,60 @@
+//Red
+$red-50:#FFEBEE !default;
+$red-100:#FFCDD2 !default;
+$red-200:#EF9A9A !default;
+$red-300:#E57373 !default;
+$red-400:#EF5350 !default;
+$red-500:#F44336 !default;
+$red-600:#E53935 !default;
+$red-700:#D32F2F !default;
+$red-800:#C62828 !default;
+$red-900:#B71C1C !default;
+$red-A100:#FF8A80 !default;
+$red-A200:#FF5252 !default;
+$red-A400:#FF1744 !default;
+$red-A700:#D50000 !default;
+
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'red-50': $red-50,
+    'red-100':$red-100,
+    'red-200':$red-200,
+    'red-300':$red-300,
+    'red-400':$red-400,
+    'red-500':$red-500,
+    'red-600':$red-600,
+    'red-700':$red-700,
+    'red-800':$red-800,
+    'red-900':$red-900,
+    'red-A100':$red-A100,
+    'red-A200':$red-A200,
+    'red-A400':$red-A400,
+    'red-A700':$red-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'red-50': $red-50,
+    'red-100':$red-100,
+    'red-200':$red-200,
+    'red-300':$red-300,
+    'red-400':$red-400,
+    'red-500':$red-500,
+    'red-600':$red-600,
+    'red-700':$red-700,
+    'red-800':$red-800,
+    'red-900':$red-900,
+    'red-A100':$red-A100,
+    'red-A200':$red-A200,
+    'red-A400':$red-A400,
+    'red-A700':$red-A700
+  ),
+  $theme-colors
+);

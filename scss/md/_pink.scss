@@ -1,0 +1,59 @@
+// Pink
+$pink-50:#FCE4EC !default;
+$pink-100:#F8BBD0 !default;
+$pink-200:#F48FB1 !default;
+$pink-300:#F06292 !default;
+$pink-400:#EC407A !default;
+$pink-500:#E91E63 !default;
+$pink-600:#D81B60 !default;
+$pink-700:#C2185B !default;
+$pink-800:#AD1457 !default;
+$pink-900:#880E4F !default;
+$pink-A100:#FF80AB !default;
+$pink-A200:#FF4081 !default;
+$pink-A400:#F50057 !default;
+$pink-A700:#C51162 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'pink-50': $pink-50,
+    'pink-100':$pink-100,
+    'pink-200':$pink-200,
+    'pink-300':$pink-300,
+    'pink-400':$pink-400,
+    'pink-500':$pink-500,
+    'pink-600':$pink-600,
+    'pink-700':$pink-700,
+    'pink-800':$pink-800,
+    'pink-900':$pink-900,
+    'pink-A100':$pink-A100,
+    'pink-A200':$pink-A200,
+    'pink-A400':$pink-A400,
+    'pink-A700':$pink-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'pink-50': $pink-50,
+    'pink-100':$pink-100,
+    'pink-200':$pink-200,
+    'pink-300':$pink-300,
+    'pink-400':$pink-400,
+    'pink-500':$pink-500,
+    'pink-600':$pink-600,
+    'pink-700':$pink-700,
+    'pink-800':$pink-800,
+    'pink-900':$pink-900,
+    'pink-A100':$pink-A100,
+    'pink-A200':$pink-A200,
+    'pink-A400':$pink-A400,
+    'pink-A700':$pink-A700
+  ),
+  $theme-colors
+);

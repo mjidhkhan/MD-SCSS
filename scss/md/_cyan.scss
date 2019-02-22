@@ -1,0 +1,59 @@
+//Cyan
+$cyan-50:#E0F7FA !default;
+$cyan-100:#B2EBF2 !default;
+$cyan-200:#80DEEA !default;
+$cyan-300:#4DD0E1 !default;
+$cyan-400:#26C6DA !default;
+$cyan-500:#00BCD4 !default;
+$cyan-600:#00ACC1 !default;
+$cyan-700:#0097A7 !default;
+$cyan-800:#00838F !default;
+$cyan-900:#006064 !default;
+$cyan-A100:#84FFFF !default;
+$cyan-A200:#18FFFF !default;
+$cyan-A400:#00E5FF !default;
+$cyan-A700:#00B8D4 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'cyan-50': $cyan-50,
+    'cyan-100':$cyan-100,
+    'cyan-200':$cyan-200,
+    'cyan-300':$cyan-300,
+    'cyan-400':$cyan-400,
+    'cyan-500':$cyan-500,
+    'cyan-600':$cyan-600,
+    'cyan-700':$cyan-700,
+    'cyan-800':$cyan-800,
+    'cyan-900':$cyan-900,
+    'cyan-A100':$cyan-A100,
+    'cyan-A200':$cyan-A200,
+    'cyan-A400':$cyan-A400,
+    'cyan-A700':$cyan-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'cyan-50': $cyan-50,
+    'cyan-100':$cyan-100,
+    'cyan-200':$cyan-200,
+    'cyan-300':$cyan-300,
+    'cyan-400':$cyan-400,
+    'cyan-500':$cyan-500,
+    'cyan-600':$cyan-600,
+    'cyan-700':$cyan-700,
+    'cyan-800':$cyan-800,
+    'cyan-900':$cyan-900,
+    'cyan-A100':$cyan-A100,
+    'cyan-A200':$cyan-A200,
+    'cyan-A400':$cyan-A400,
+    'cyan-A700':$cyan-A700
+  ),
+  $theme-colors
+);

@@ -1,0 +1,98 @@
+// light-green Color
+
+$light-green: #8bc34a !default;
+$light-green-lighten-5: #f1f8e9 !default;
+$light-green-lighten-4: #dcedc8 !default;
+$light-green-lighten-3: #c5e1a5 !default;
+$light-green-lighten-2: #aed581 !default;
+$light-green-lighten-1: #9ccc65 !default;
+$light-green-darken-1: #7cb342 !default;
+$light-green-darken-2: #689f38 !default;
+$light-green-darken-3: #558b2f !default;
+$light-green-darken-4: #33691e !default;
+$light-green-accent-1: #ccff90 !default;
+$light-green-accent-2: #b2ff59 !default;
+$light-green-accent-3: #76ff03 !default;
+$light-green-accent-4: #64dd17 !default;
+
+$light-green-lighten: () !default;
+
+$light-green-lighten: map-merge(
+
+	(
+		"light-green-lighten-5": $light-green-lighten-5,
+		"light-green-lighten-4": $light-green-lighten-4,
+		"light-green-lighten-3": $light-green-lighten-3,
+		"light-green-lighten-2": $light-green-lighten-2,
+		"light-green-lighten-1": $light-green-lighten-1
+	),
+	$light-green-lighten
+);
+$light-green-darken: () !default;
+$light-green-darken: map-merge(
+
+	(
+		"light-green": $light-green,
+		"light-green-darken-4": $light-green-darken-4,
+		"light-green-darken-3": $light-green-darken-3,
+		"light-green-darken-2": $light-green-darken-2,
+		"light-green-darken-1": $light-green-darken-1
+	),
+	$light-green-darken
+);
+
+$light-green-accent: () !default;
+$light-green-accent: map-merge(
+
+	(
+		"light-green-accent-4": $light-green-accent-4,
+		"light-green-accent-3": $light-green-accent-3,
+		"light-green-accent-2": $light-green-accent-2,
+		"light-green-accent-1": $light-green-accent-1
+	),
+	$light-green-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"light-green-lighten-1":$light-green-lighten-1,
+		"light-green-lighten-2":$light-green-lighten-2,
+		"light-green-lighten-3":$light-green-lighten-3,
+		"light-green-lighten-4":$light-green-lighten-4,
+		"light-green-lighten-5":$light-green-lighten-5,
+		"light-green-darken-1":$light-green-darken-1,
+		"light-green-darken-2":$light-green-darken-2,
+		"light-green-darken-3":$light-green-darken-3,
+		"light-green-darken-4":$light-green-darken-4,
+		"light-green-accent-1":$light-green-accent-1,
+		"light-green-accent-2":$light-green-accent-2,
+		"light-green-accent-3":$light-green-accent-3,
+		"light-green-accent-4":$light-green-accent-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"light-green": $light-green,
+		"light-green-lighten-1":$light-green-lighten-1,
+		"light-green-lighten-2":$light-green-lighten-2,
+		"light-green-lighten-3":$light-green-lighten-3,
+		"light-green-lighten-4":$light-green-lighten-4,
+		"light-green-lighten-5":$light-green-lighten-5,
+		"light-green-darken-1":$light-green-darken-1,
+		"light-green-darken-2":$light-green-darken-2,
+		"light-green-darken-3":$light-green-darken-3,
+		"light-green-darken-4":$light-green-darken-4,
+		"light-green-accent-1":$light-green-accent-1,
+		"light-green-accent-2":$light-green-accent-2,
+		"light-green-accent-3":$light-green-accent-3,
+		"light-green-accent-4":$light-green-accent-4
+	),
+	$theme-colors
+);

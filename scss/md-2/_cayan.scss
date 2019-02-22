@@ -1,0 +1,98 @@
+// cayan Color
+
+$cayan: #00bcd4 !default;
+$cayan-lighten-5: #e0f7fa !default;
+$cayan-lighten-4: #b2ebf2 !default;
+$cayan-lighten-3: #80deea !default;
+$cayan-lighten-2: #4dd0e1 !default;
+$cayan-lighten-1: #26c6da !default;
+$cayan-darken-1: #00acc1 !default;
+$cayan-darken-2: #0097a7 !default;
+$cayan-darken-3: #00838f !default;
+$cayan-darken-4: #006064 !default;
+$cayan-accent-1: #84ffff !default;
+$cayan-accent-2: #18ffff !default;
+$cayan-accent-3: #00e5ff !default;
+$cayan-accent-4: #00b8d4 !default;
+
+$cayan-lighten: () !default;
+
+$cayan-lighten: map-merge(
+
+	(
+		"cayan-lighten-5": $cayan-lighten-5,
+		"cayan-lighten-4": $cayan-lighten-4,
+		"cayan-lighten-3": $cayan-lighten-3,
+		"cayan-lighten-2": $cayan-lighten-2,
+		"cayan-lighten-1": $cayan-lighten-1
+	),
+	$cayan-lighten
+);
+$cayan-darken: () !default;
+$cayan-darken: map-merge(
+
+	(
+		"cayan": $cayan,
+		"cayan-darken-4": $cayan-darken-4,
+		"cayan-darken-3": $cayan-darken-3,
+		"cayan-darken-2": $cayan-darken-2,
+		"cayan-darken-1": $cayan-darken-1
+	),
+	$cayan-darken
+);
+
+$cayan-accent: () !default;
+$cayan-accent: map-merge(
+
+	(
+		"cayan-accent-4": $cayan-accent-4,
+		"cayan-accent-3": $cayan-accent-3,
+		"cayan-accent-2": $cayan-accent-2,
+		"cayan-accent-1": $cayan-accent-1
+	),
+	$cayan-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"cayan-lighten-1":$cayan-lighten-1,
+		"cayan-lighten-2":$cayan-lighten-2,
+		"cayan-lighten-3":$cayan-lighten-3,
+		"cayan-lighten-4":$cayan-lighten-4,
+		"cayan-lighten-5":$cayan-lighten-5,
+		"cayan-darken-1":$cayan-darken-1,
+		"cayan-darken-2":$cayan-darken-2,
+		"cayan-darken-3":$cayan-darken-3,
+		"cayan-darken-4":$cayan-darken-4,
+		"cayan-accent-1":$cayan-accent-1,
+		"cayan-accent-2":$cayan-accent-2,
+		"cayan-accent-3":$cayan-accent-3,
+		"cayan-accent-4":$cayan-accent-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"cayan": $cayan,
+		"cayan-lighten-1":$cayan-lighten-1,
+		"cayan-lighten-2":$cayan-lighten-2,
+		"cayan-lighten-3":$cayan-lighten-3,
+		"cayan-lighten-4":$cayan-lighten-4,
+		"cayan-lighten-5":$cayan-lighten-5,
+		"cayan-darken-1":$cayan-darken-1,
+		"cayan-darken-2":$cayan-darken-2,
+		"cayan-darken-3":$cayan-darken-3,
+		"cayan-darken-4":$cayan-darken-4,
+		"cayan-accent-1":$cayan-accent-1,
+		"cayan-accent-2":$cayan-accent-2,
+		"cayan-accent-3":$cayan-accent-3,
+		"cayan-accent-4":$cayan-accent-4
+	),
+	$theme-colors
+);

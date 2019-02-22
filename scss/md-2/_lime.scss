@@ -1,0 +1,98 @@
+// lime Color
+
+$lime: #cddc39 !default;
+$lime-lighten-5: #f9fbe7 !default;
+$lime-lighten-4: #f0f4c3 !default;
+$lime-lighten-3: #e6ee9c !default;
+$lime-lighten-2: #dce775 !default;
+$lime-lighten-1: #d4e157 !default;
+$lime-darken-1: #c0ca33 !default;
+$lime-darken-2: #afb42b !default;
+$lime-darken-3: #827717 !default;
+$lime-darken-4: #827717 !default;
+$lime-accent-1: #f4ff81 !default;
+$lime-accent-2: #eeff41 !default;
+$lime-accent-3: #c6ff00 !default;
+$lime-accent-4: #aeea00 !default;
+
+$lime-lighten: () !default;
+
+$lime-lighten: map-merge(
+
+	(
+		"lime-lighten-5": $lime-lighten-5,
+		"lime-lighten-4": $lime-lighten-4,
+		"lime-lighten-3": $lime-lighten-3,
+		"lime-lighten-2": $lime-lighten-2,
+		"lime-lighten-1": $lime-lighten-1
+	),
+	$lime-lighten
+);
+$lime-darken: () !default;
+$lime-darken: map-merge(
+
+	(
+		"lime": $lime,
+		"lime-darken-4": $lime-darken-4,
+		"lime-darken-3": $lime-darken-3,
+		"lime-darken-2": $lime-darken-2,
+		"lime-darken-1": $lime-darken-1
+	),
+	$lime-darken
+);
+
+$lime-accent: () !default;
+$lime-accent: map-merge(
+
+	(
+		"lime-accent-4": $lime-accent-4,
+		"lime-accent-3": $lime-accent-3,
+		"lime-accent-2": $lime-accent-2,
+		"lime-accent-1": $lime-accent-1
+	),
+	$lime-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"lime-lighten-1":$lime-lighten-1,
+		"lime-lighten-2":$lime-lighten-2,
+		"lime-lighten-3":$lime-lighten-3,
+		"lime-lighten-4":$lime-lighten-4,
+		"lime-lighten-5":$lime-lighten-5,
+		"lime-darken-1":$lime-darken-1,
+		"lime-darken-2":$lime-darken-2,
+		"lime-darken-3":$lime-darken-3,
+		"lime-darken-4":$lime-darken-4,
+		"lime-accent-1":$lime-accent-1,
+		"lime-accent-2":$lime-accent-2,
+		"lime-accent-3":$lime-accent-3,
+		"lime-accent-4":$lime-accent-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"lime": $lime,
+		"lime-lighten-1":$lime-lighten-1,
+		"lime-lighten-2":$lime-lighten-2,
+		"lime-lighten-3":$lime-lighten-3,
+		"lime-lighten-4":$lime-lighten-4,
+		"lime-lighten-5":$lime-lighten-5,
+		"lime-darken-1":$lime-darken-1,
+		"lime-darken-2":$lime-darken-2,
+		"lime-darken-3":$lime-darken-3,
+		"lime-darken-4":$lime-darken-4,
+		"lime-accent-1":$lime-accent-1,
+		"lime-accent-2":$lime-accent-2,
+		"lime-accent-3":$lime-accent-3,
+		"lime-accent-4":$lime-accent-4
+	),
+	$theme-colors
+);

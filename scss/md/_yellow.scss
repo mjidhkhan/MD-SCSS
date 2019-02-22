@@ -1,0 +1,59 @@
+//Yellow
+$yellow-50:#FFFDE7 !default;
+$yellow-100:#FFF9C4 !default;
+$yellow-200:#FFF59D !default;
+$yellow-300:#FFF176 !default;
+$yellow-400:#FFEE58 !default;
+$yellow-500:#FFEB3B !default;
+$yellow-600:#FDD835 !default;
+$yellow-700:#FBC02D !default;
+$yellow-800:#F9A825 !default;
+$yellow-900:#F57F17 !default;
+$yellow-A100:#FFFF8D !default;
+$yellow-A200:#FFFF00 !default;
+$yellow-A400:#FFEA00 !default;
+$yellow-A700:#FFD600 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'yellow-50': $yellow-50,
+    'yellow-100':$yellow-100,
+    'yellow-200':$yellow-200,
+    'yellow-300':$yellow-300,
+    'yellow-400':$yellow-400,
+    'yellow-500':$yellow-500,
+    'yellow-600':$yellow-600,
+    'yellow-700':$yellow-700,
+    'yellow-800':$yellow-800,
+    'yellow-900':$yellow-900,
+    'yellow-A100':$yellow-A100,
+    'yellow-A200':$yellow-A200,
+    'yellow-A400':$yellow-A400,
+    'yellow-A700':$yellow-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'yellow-50': $yellow-50,
+    'yellow-100':$yellow-100,
+    'yellow-200':$yellow-200,
+    'yellow-300':$yellow-300,
+    'yellow-400':$yellow-400,
+    'yellow-500':$yellow-500,
+    'yellow-600':$yellow-600,
+    'yellow-700':$yellow-700,
+    'yellow-800':$yellow-800,
+    'yellow-900':$yellow-900,
+    'yellow-A100':$yellow-A100,
+    'yellow-A200':$yellow-A200,
+    'yellow-A400':$yellow-A400,
+    'yellow-A700':$yellow-A700
+  ),
+  $theme-colors
+);

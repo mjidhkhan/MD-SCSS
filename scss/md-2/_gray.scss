@@ -1,0 +1,74 @@
+// gray Color
+
+$gray: #9e9e9e !default;
+$gray-lighten-5: #fafafa !default;
+$gray-lighten-4: #f5f5f5 !default;
+$gray-lighten-3: #eeeeee !default;
+$gray-lighten-2: #e0e0e0 !default;
+$gray-lighten-1: #bdbdbd !default;
+$gray-darken-1: #757575 !default;
+$gray-darken-2: #616161 !default;
+$gray-darken-3: #424242 !default;
+$gray-darken-4: #212121 !default;
+
+$gray-lighten: () !default;
+
+$gray-lighten: map-merge(
+
+	(
+		"gray-lighten-5": $gray-lighten-5,
+		"gray-lighten-4": $gray-lighten-4,
+		"gray-lighten-3": $gray-lighten-3,
+		"gray-lighten-2": $gray-lighten-2,
+		"gray-lighten-1": $gray-lighten-1
+	),
+	$gray-lighten
+);
+$gray-darken: () !default;
+$gray-darken: map-merge(
+
+	(
+		"gray": $gray,
+		"gray-darken-4": $gray-darken-4,
+		"gray-darken-3": $gray-darken-3,
+		"gray-darken-2": $gray-darken-2,
+		"gray-darken-1": $gray-darken-1
+	),
+	$gray-darken
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"gray": $gray,
+		"gray-lighten-1":$gray-lighten-1,
+		"gray-lighten-2":$gray-lighten-2,
+		"gray-lighten-3":$gray-lighten-3,
+		"gray-lighten-4":$gray-lighten-4,
+		"gray-lighten-5":$gray-lighten-5,
+		"gray-darken-1":$gray-darken-1,
+		"gray-darken-2":$gray-darken-2,
+		"gray-darken-3":$gray-darken-3,
+		"gray-darken-4":$gray-darken-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"gray-lighten-1":$gray-lighten-1,
+		"gray-lighten-2":$gray-lighten-2,
+		"gray-lighten-3":$gray-lighten-3,
+		"gray-lighten-4":$gray-lighten-4,
+		"gray-lighten-5":$gray-lighten-5,
+		"gray-darken-1":$gray-darken-1,
+		"gray-darken-2":$gray-darken-2,
+		"gray-darken-3":$gray-darken-3,
+		"gray-darken-4":$gray-darken-4
+	),
+	$theme-colors
+);

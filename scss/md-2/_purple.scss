@@ -1,0 +1,97 @@
+// purple Color
+
+$purple: #9c27b0 !default;
+$purple-lighten-5: #f3e5f5 !default;
+$purple-lighten-4: #e1bee7 !default;
+$purple-lighten-3: #ce93d8 !default;
+$purple-lighten-2: #ba68c8 !default;
+$purple-lighten-1: #ab47bc !default;
+$purple-darken-1: #8e24aa !default;
+$purple-darken-2: #7b1fa2 !default;
+$purple-darken-3: #6a1b9a !default;
+$purple-darken-4: #4a148c !default;
+$purple-accent-1: #ea80fc !default;
+$purple-accent-2: #e040fb !default;
+$purple-accent-3: #d500f9 !default;
+$purple-accent-4: #aa00ff !default;
+
+$purple-lighten: () !default;
+
+$purple-lighten: map-merge(
+
+	(
+		"purple-lighten-5": $purple-lighten-5,
+		"purple-lighten-4": $purple-lighten-4,
+		"purple-lighten-3": $purple-lighten-3,
+		"purple-lighten-2": $purple-lighten-2,
+		"purple-lighten-1": $purple-lighten-1
+	),
+	$purple-lighten
+);
+$purple-darken: () !default;
+$purple-darken: map-merge(
+
+	(
+		"purple": $purple,
+		"purple-darken-4": $purple-darken-4,
+		"purple-darken-3": $purple-darken-3,
+		"purple-darken-2": $purple-darken-2,
+		"purple-darken-1": $purple-darken-1
+	),
+	$purple-darken
+);
+
+$purple-accent: () !default;
+$purple-accent: map-merge(
+
+	(
+		"purple-accent-4": $purple-accent-4,
+		"purple-accent-3": $purple-accent-3,
+		"purple-accent-2": $purple-accent-2,
+		"purple-accent-1": $purple-accent-1
+	),
+	$purple-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"purple-lighten-1":$purple-lighten-1,
+		"purple-lighten-2":$purple-lighten-2,
+		"purple-lighten-3":$purple-lighten-3,
+		"purple-lighten-4":$purple-lighten-4,
+		"purple-lighten-5":$purple-lighten-5,
+		"purple-darken-1":$purple-darken-1,
+		"purple-darken-2":$purple-darken-2,
+		"purple-darken-3":$purple-darken-3,
+		"purple-darken-4":$purple-darken-4,
+		"purple-accent-1":$purple-accent-1,
+		"purple-accent-2":$purple-accent-2,
+		"purple-accent-3":$purple-accent-3,
+		"purple-accent-4":$purple-accent-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"purple-lighten-1":$purple-lighten-1,
+		"purple-lighten-2":$purple-lighten-2,
+		"purple-lighten-3":$purple-lighten-3,
+		"purple-lighten-4":$purple-lighten-4,
+		"purple-lighten-5":$purple-lighten-5,
+		"purple-darken-1":$purple-darken-1,
+		"purple-darken-2":$purple-darken-2,
+		"purple-darken-3":$purple-darken-3,
+		"purple-darken-4":$purple-darken-4,
+		"purple-accent-1":$purple-accent-1,
+		"purple-accent-2":$purple-accent-2,
+		"purple-accent-3":$purple-accent-3,
+		"purple-accent-4":$purple-accent-4
+	),
+	$theme-colors
+);

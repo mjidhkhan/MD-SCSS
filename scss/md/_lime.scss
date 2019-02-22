@@ -1,0 +1,59 @@
+//Lime
+$lime-50:#F9FBE7 !default;
+$lime-100:#F0F4C3 !default;
+$lime-200:#E6EE9C !default;
+$lime-300:#DCE775 !default;
+$lime-400:#D4E157 !default;
+$lime-500:#CDDC39 !default;
+$lime-600:#C0CA33 !default;
+$lime-700:#AFB42B !default;
+$lime-800:#9E9D24 !default;
+$lime-900:#827717 !default;
+$lime-A100:#F4FF81 !default;
+$lime-A200:#EEFF41 !default;
+$lime-A400:#C6FF00 !default;
+$lime-A700:#AEEA00 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'lime-50': $lime-50,
+    'lime-100':$lime-100,
+    'lime-200':$lime-200,
+    'lime-300':$lime-300,
+    'lime-400':$lime-400,
+    'lime-500':$lime-500,
+    'lime-600':$lime-600,
+    'lime-700':$lime-700,
+    'lime-800':$lime-800,
+    'lime-900':$lime-900,
+    'lime-A100':$lime-A100,
+    'lime-A200':$lime-A200,
+    'lime-A400':$lime-A400,
+    'lime-A700':$lime-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'lime-50': $lime-50,
+    'lime-100':$lime-100,
+    'lime-200':$lime-200,
+    'lime-300':$lime-300,
+    'lime-400':$lime-400,
+    'lime-500':$lime-500,
+    'lime-600':$lime-600,
+    'lime-700':$lime-700,
+    'lime-800':$lime-800,
+    'lime-900':$lime-900,
+    'lime-A100':$lime-A100,
+    'lime-A200':$lime-A200,
+    'lime-A400':$lime-A400,
+    'lime-A700':$lime-A700
+  ),
+  $theme-colors
+);

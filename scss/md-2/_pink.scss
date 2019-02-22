@@ -1,0 +1,100 @@
+// pink Color
+
+$pink: #e91e63 !default;
+$pink-lighten-5: #fce4ec !default;
+$pink-lighten-4: #f8bbd0 !default;
+$pink-lighten-3: #f48fb1 !default;
+$pink-lighten-2: #f06292 !default;
+$pink-lighten-1: #ec407a !default;
+$pink-darken-1: #d81b60 !default;
+$pink-darken-2: #c2185b !default;
+$pink-darken-3: #ad1457 !default;
+$pink-darken-4: #880e4f !default;
+$pink-accent-1: #ff80ab !default;
+$pink-accent-2: #ff4081 !default;
+$pink-accent-3: #f50057 !default;
+$pink-accent-4: #c51162 !default;
+
+$pink-lighten: () !default;
+
+$pink-lighten: map-merge(
+
+	(
+		"pink-lighten-5": $pink-lighten-5,
+		"pink-lighten-4": $pink-lighten-4,
+		"pink-lighten-3": $pink-lighten-3,
+		"pink-lighten-2": $pink-lighten-2,
+		"pink-lighten-1": $pink-lighten-1
+	),
+	$pink-lighten
+);
+$pink-darken: () !default;
+$pink-darken: map-merge(
+
+	(
+		"pink": $pink,
+		"pink-darken-4": $pink-darken-4,
+		"pink-darken-3": $pink-darken-3,
+		"pink-darken-2": $pink-darken-2,
+		"pink-darken-1": $pink-darken-1
+	),
+	$pink-darken
+);
+
+$pink-accent: () !default;
+$pink-accent: map-merge(
+
+	(
+		"pink-accent-4": $pink-accent-4,
+		"pink-accent-3": $pink-accent-3,
+		"pink-accent-2": $pink-accent-2,
+		"pink-accent-1": $pink-accent-1
+	),
+	$pink-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"pink": $pink,
+		"pink-lighten-1":$pink-lighten-1,
+		"pink-lighten-2":$pink-lighten-2,
+		"pink-lighten-3":$pink-lighten-3,
+		"pink-lighten-4":$pink-lighten-4,
+		"pink-lighten-5":$pink-lighten-5,
+		"pink-darken-1":$pink-darken-1,
+		"pink-darken-2":$pink-darken-2,
+		"pink-darken-3":$pink-darken-3,
+		"pink-darken-4":$pink-darken-4,
+		"pink-accent-1":$pink-accent-1,
+		"pink-accent-2":$pink-accent-2,
+		"pink-accent-3":$pink-accent-3,
+		"pink-accent-4":$pink-accent-4
+	),
+	$colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"pink": $pink,
+		"pink-lighten-1":$pink-lighten-1,
+		"pink-lighten-2":$pink-lighten-2,
+		"pink-lighten-3":$pink-lighten-3,
+		"pink-lighten-4":$pink-lighten-4,
+		"pink-lighten-5":$pink-lighten-5,
+		"pink-darken-1":$pink-darken-1,
+		"pink-darken-2":$pink-darken-2,
+		"pink-darken-3":$pink-darken-3,
+		"pink-darken-4":$pink-darken-4,
+		"pink-accent-1":$pink-accent-1,
+		"pink-accent-2":$pink-accent-2,
+		"pink-accent-3":$pink-accent-3,
+		"pink-accent-4":$pink-accent-4
+	),
+	$theme-colors
+);

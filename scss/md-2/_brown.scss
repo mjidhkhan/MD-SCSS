@@ -1,0 +1,74 @@
+// brown Color
+
+$brown: #795548 !default;
+$brown-lighten-5: #efebe9 !default;
+$brown-lighten-4: #d7ccc8 !default;
+$brown-lighten-3: #bcaaa4 !default;
+$brown-lighten-2: #a1887f !default;
+$brown-lighten-1: #8d6e63 !default;
+$brown-darken-1: #6d4c41 !default;
+$brown-darken-2: #5d4037 !default;
+$brown-darken-3: #4e342e !default;
+$brown-darken-4: #3e2723 !default;
+
+$brown-lighten: () !default;
+
+$brown-lighten: map-merge(
+
+	(
+		"brown-lighten-5": $brown-lighten-5,
+		"brown-lighten-4": $brown-lighten-4,
+		"brown-lighten-3": $brown-lighten-3,
+		"brown-lighten-2": $brown-lighten-2,
+		"brown-lighten-1": $brown-lighten-1
+	),
+	$brown-lighten
+);
+$brown-darken: () !default;
+$brown-darken: map-merge(
+
+	(
+		"brown": $brown,
+		"brown-darken-4": $brown-darken-4,
+		"brown-darken-3": $brown-darken-3,
+		"brown-darken-2": $brown-darken-2,
+		"brown-darken-1": $brown-darken-1
+	),
+	$brown-darken
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"brown-lighten-1":$brown-lighten-1,
+		"brown-lighten-2":$brown-lighten-2,
+		"brown-lighten-3":$brown-lighten-3,
+		"brown-lighten-4":$brown-lighten-4,
+		"brown-lighten-5":$brown-lighten-5,
+		"brown-darken-1":$brown-darken-1,
+		"brown-darken-2":$brown-darken-2,
+		"brown-darken-3":$brown-darken-3,
+		"brown-darken-4":$brown-darken-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"brown": $brown,
+		"brown-lighten-1":$brown-lighten-1,
+		"brown-lighten-2":$brown-lighten-2,
+		"brown-lighten-3":$brown-lighten-3,
+		"brown-lighten-4":$brown-lighten-4,
+		"brown-lighten-5":$brown-lighten-5,
+		"brown-darken-1":$brown-darken-1,
+		"brown-darken-2":$brown-darken-2,
+		"brown-darken-3":$brown-darken-3,
+		"brown-darken-4":$brown-darken-4
+	),
+	$theme-colors
+);

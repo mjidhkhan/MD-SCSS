@@ -1,0 +1,98 @@
+// RED Color
+
+$red: #f44336 !default;
+$red-lighten-5: #ffebee !default;
+$red-lighten-4: #ffcdd2 !default;
+$red-lighten-3: #ef9a9a !default;
+$red-lighten-2: #e57373 !default;
+$red-lighten-1: #ef5350 !default;
+$red-darken-1: #e53935 !default;
+$red-darken-2: #d32f2f !default;
+$red-darken-3: #c62828 !default;
+$red-darken-4: #b71c1c !default;
+$red-accent-1: #ff8a80 !default;
+$red-accent-2: #ff5252 !default;
+$red-accent-3: #ff1744 !default;
+$red-accent-4: #d50000 !default;
+
+$red-lighten: () !default;
+
+$red-lighten: map-merge(
+
+	(
+		"red-lighten-5": $red-lighten-5,
+		"red-lighten-4": $red-lighten-4,
+		"red-lighten-3": $red-lighten-3,
+		"red-lighten-2": $red-lighten-2,
+		"red-lighten-1": $red-lighten-1
+	),
+	$red-lighten
+);
+$red-darken: () !default;
+$red-darken: map-merge(
+
+	(
+		"red-base": $red,
+		"red-darken-4": $red-darken-4,
+		"red-darken-3": $red-darken-3,
+		"red-darken-2": $red-darken-2,
+		"red-darken-1": $red-darken-1
+	),
+	$red-darken
+);
+
+$red-accent: () !default;
+$red-accent: map-merge(
+
+	(
+		"red-accent-4": $red-accent-4,
+		"red-accent-3": $red-accent-3,
+		"red-accent-2": $red-accent-2,
+		"red-accent-1": $red-accent-1
+	),
+	$red-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"red-lighten-1":$red-lighten-1,
+		"red-lighten-2":$red-lighten-2,
+		"red-lighten-3":$red-lighten-3,
+		"red-lighten-4":$red-lighten-4,
+		"red-lighten-5":$red-lighten-5,
+		"red-darken-1":$red-darken-1,
+		"red-darken-2":$red-darken-2,
+		"red-darken-3":$red-darken-3,
+		"red-darken-4":$red-darken-4,
+		"red-accent-1":$red-accent-1,
+		"red-accent-2":$red-accent-2,
+		"red-accent-3":$red-accent-3,
+		"red-accent-4":$red-accent-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"red-base": $red,
+		"red-lighten-1":$red-lighten-1,
+		"red-lighten-2":$red-lighten-2,
+		"red-lighten-3":$red-lighten-3,
+		"red-lighten-4":$red-lighten-4,
+		"red-lighten-5":$red-lighten-5,
+		"red-darken-1":$red-darken-1,
+		"red-darken-2":$red-darken-2,
+		"red-darken-3":$red-darken-3,
+		"red-darken-4":$red-darken-4,
+		"red-accent-1":$red-accent-1,
+		"red-accent-2":$red-accent-2,
+		"red-accent-3":$red-accent-3,
+		"red-accent-4":$red-accent-4
+	),
+	$theme-colors
+);

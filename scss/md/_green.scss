@@ -1,0 +1,59 @@
+//Green
+$green-50:#E8F5E9 !default;
+$green-100:#C8E6C9 !default;
+$green-200:#A5D6A7 !default;
+$green-300:#81C784 !default;
+$green-400:#66BB6A !default;
+$green-500:#4CAF50 !default;
+$green-600:#43A047 !default;
+$green-700:#388E3C !default;
+$green-800:#2E7D32 !default;
+$green-900:#1B5E20 !default;
+$green-A100:#B9F6CA !default;
+$green-A200:#69F0AE !default;
+$green-A400:#00E676 !default;
+$green-A700:#00C853 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    'green-50': $green-50,
+    'green-100':$green-100,
+    'green-200':$green-200,
+    'green-300':$green-300,
+    'green-400':$green-400,
+    'green-500':$green-500,
+    'green-600':$green-600,
+    'green-700':$green-700,
+    'green-800':$green-800,
+    'green-900':$green-900,
+    'green-A100':$green-A100,
+    'green-A200':$green-A200,
+    'green-A400':$green-A400,
+    'green-A700':$green-A700
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    'green-50': $green-50,
+    'green-100':$green-100,
+    'green-200':$green-200,
+    'green-300':$green-300,
+    'green-400':$green-400,
+    'green-500':$green-500,
+    'green-600':$green-600,
+    'green-700':$green-700,
+    'green-800':$green-800,
+    'green-900':$green-900,
+    'green-A100':$green-A100,
+    'green-A200':$green-A200,
+    'green-A400':$green-A400,
+    'green-A700':$green-A700
+  ),
+  $theme-colors
+);

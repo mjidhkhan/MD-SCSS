@@ -1,0 +1,98 @@
+// deep-purple Color
+
+$deep-purple: #673ab7 !default;
+$deep-purple-lighten-5: #ede7f6 !default;
+$deep-purple-lighten-4: #d1c4e9 !default;
+$deep-purple-lighten-3: #b39ddb !default;
+$deep-purple-lighten-2: #9575cd !default;
+$deep-purple-lighten-1: #7e57c2 !default;
+$deep-purple-darken-1: #5e35b1 !default;
+$deep-purple-darken-2: #512da8 !default;
+$deep-purple-darken-3: #4527a0 !default;
+$deep-purple-darken-4: #311b92 !default;
+$deep-purple-accent-1: #b388ff !default;
+$deep-purple-accent-2: #7c4dff !default;
+$deep-purple-accent-3: #651fff !default;
+$deep-purple-accent-4: #6200ea !default;
+
+$deep-purple-lighten: () !default;
+
+$deep-purple-lighten: map-merge(
+
+	(
+		"deep-purple-lighten-5": $deep-purple-lighten-5,
+		"deep-purple-lighten-4": $deep-purple-lighten-4,
+		"deep-purple-lighten-3": $deep-purple-lighten-3,
+		"deep-purple-lighten-2": $deep-purple-lighten-2,
+		"deep-purple-lighten-1": $deep-purple-lighten-1
+	),
+	$deep-purple-lighten
+);
+$deep-purple-darken: () !default;
+$deep-purple-darken: map-merge(
+
+	(
+		"deep-purple": $deep-purple,
+		"deep-purple-darken-4": $deep-purple-darken-4,
+		"deep-purple-darken-3": $deep-purple-darken-3,
+		"deep-purple-darken-2": $deep-purple-darken-2,
+		"deep-purple-darken-1": $deep-purple-darken-1
+	),
+	$deep-purple-darken
+);
+
+$deep-purple-accent: () !default;
+$deep-purple-accent: map-merge(
+
+	(
+		"deep-purple-accent-4": $deep-purple-accent-4,
+		"deep-purple-accent-3": $deep-purple-accent-3,
+		"deep-purple-accent-2": $deep-purple-accent-2,
+		"deep-purple-accent-1": $deep-purple-accent-1
+	),
+	$deep-purple-accent
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"deep-purple-lighten-1":$deep-purple-lighten-1,
+		"deep-purple-lighten-2":$deep-purple-lighten-2,
+		"deep-purple-lighten-3":$deep-purple-lighten-3,
+		"deep-purple-lighten-4":$deep-purple-lighten-4,
+		"deep-purple-lighten-5":$deep-purple-lighten-5,
+		"deep-purple-darken-1":$deep-purple-darken-1,
+		"deep-purple-darken-2":$deep-purple-darken-2,
+		"deep-purple-darken-3":$deep-purple-darken-3,
+		"deep-purple-darken-4":$deep-purple-darken-4,
+		"deep-purple-accent-1":$deep-purple-accent-1,
+		"deep-purple-accent-2":$deep-purple-accent-2,
+		"deep-purple-accent-3":$deep-purple-accent-3,
+		"deep-purple-accent-4":$deep-purple-accent-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"deep-purple": $deep-purple,
+		"deep-purple-lighten-1":$deep-purple-lighten-1,
+		"deep-purple-lighten-2":$deep-purple-lighten-2,
+		"deep-purple-lighten-3":$deep-purple-lighten-3,
+		"deep-purple-lighten-4":$deep-purple-lighten-4,
+		"deep-purple-lighten-5":$deep-purple-lighten-5,
+		"deep-purple-darken-1":$deep-purple-darken-1,
+		"deep-purple-darken-2":$deep-purple-darken-2,
+		"deep-purple-darken-3":$deep-purple-darken-3,
+		"deep-purple-darken-4":$deep-purple-darken-4,
+		"deep-purple-accent-1":$deep-purple-accent-1,
+		"deep-purple-accent-2":$deep-purple-accent-2,
+		"deep-purple-accent-3":$deep-purple-accent-3,
+		"deep-purple-accent-4":$deep-purple-accent-4
+	),
+	$theme-colors
+);

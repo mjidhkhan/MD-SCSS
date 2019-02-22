@@ -1,0 +1,74 @@
+// blue-gray Color
+
+$blue-gray: #607d8b !default;
+$blue-gray-lighten-5: #eceff1 !default;
+$blue-gray-lighten-4: #cfd8dc !default;
+$blue-gray-lighten-3: #b0bec5 !default;
+$blue-gray-lighten-2: #90a4ae !default;
+$blue-gray-lighten-1: #78909c !default;
+$blue-gray-darken-1: #546e7a !default;
+$blue-gray-darken-2: #455a64 !default;
+$blue-gray-darken-3: #37474f !default;
+$blue-gray-darken-4: #263238 !default;
+
+$blue-gray-lighten: () !default;
+
+$blue-gray-lighten: map-merge(
+
+	(
+		"blue-gray-lighten-5": $blue-gray-lighten-5,
+		"blue-gray-lighten-4": $blue-gray-lighten-4,
+		"blue-gray-lighten-3": $blue-gray-lighten-3,
+		"blue-gray-lighten-2": $blue-gray-lighten-2,
+		"blue-gray-lighten-1": $blue-gray-lighten-1
+	),
+	$blue-gray-lighten
+);
+$blue-gray-darken: () !default;
+$blue-gray-darken: map-merge(
+
+	(
+		"blue-gray": $blue-gray,
+		"blue-gray-darken-4": $blue-gray-darken-4,
+		"blue-gray-darken-3": $blue-gray-darken-3,
+		"blue-gray-darken-2": $blue-gray-darken-2,
+		"blue-gray-darken-1": $blue-gray-darken-1
+	),
+	$blue-gray-darken
+);
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+
+	(
+		"blue-gray-lighten-1":$blue-gray-lighten-1,
+		"blue-gray-lighten-2":$blue-gray-lighten-2,
+		"blue-gray-lighten-3":$blue-gray-lighten-3,
+		"blue-gray-lighten-4":$blue-gray-lighten-4,
+		"blue-gray-lighten-5":$blue-gray-lighten-5,
+		"blue-gray-darken-1":$blue-gray-darken-1,
+		"blue-gray-darken-2":$blue-gray-darken-2,
+		"blue-gray-darken-3":$blue-gray-darken-3,
+		"blue-gray-darken-4":$blue-gray-darken-4
+	),
+	$colors
+);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+
+	(
+		"blue-gray": $blue-gray,
+		"blue-gray-lighten-1":$blue-gray-lighten-1,
+		"blue-gray-lighten-2":$blue-gray-lighten-2,
+		"blue-gray-lighten-3":$blue-gray-lighten-3,
+		"blue-gray-lighten-4":$blue-gray-lighten-4,
+		"blue-gray-lighten-5":$blue-gray-lighten-5,
+		"blue-gray-darken-1":$blue-gray-darken-1,
+		"blue-gray-darken-2":$blue-gray-darken-2,
+		"blue-gray-darken-3":$blue-gray-darken-3,
+		"blue-gray-darken-4":$blue-gray-darken-4
+	),
+	$theme-colors
+);
